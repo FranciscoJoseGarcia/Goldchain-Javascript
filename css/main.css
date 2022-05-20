@@ -360,7 +360,7 @@
 
 .housingServicios ul li {
   font-size: 1.3rem;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   list-style-position: inside;
 }
@@ -577,5 +577,269 @@
 .definiciones span {
   color: #ffc107;
   font-weight: bold;
+}
+
+/* PRODUCTOS */
+.mainProductos {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/negro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #dfebed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 70px;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.mainProductos__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  gap: 15px;
+  width: 100%;
+  max-width: 900px;
+  height: 100vh;
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8 {
+  border: 1px solid #dfebed;
+  -webkit-box-shadow: 0px 0px 6px 1px #dfebed;
+          box-shadow: 0px 0px 6px 1px #dfebed;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.grid1 {
+  background-image: url("../img/grid2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid1:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.grid2 {
+  background-image: url("../img/grid3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid2:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.grid3 {
+  background-image: url("../img/grid4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid3:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.grid4 {
+  background-image: url("../img/grid5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid4:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.grid5 {
+  background-image: url("../img/grid6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid5:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.grid6 {
+  background-image: url("../img/grid8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid6:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.grid7 {
+  background-image: url("../img/grid7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid7:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.grid8 {
+  background-image: url("../img/grid9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid8:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.sectionProductos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #dfebed;
+  gap: 100px;
+  font-family: 'Langar', cursive;
+  padding-bottom: 130px;
+}
+
+.productosParrafos {
+  background-color: #f0eef0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-top: 15px;
+  max-width: 800px;
+  margin: 0px auto;
+  -webkit-box-shadow: 0px 0px 10px 1px black;
+          box-shadow: 0px 0px 10px 1px black;
+}
+
+.productosParrafos h1 {
+  font-size: 2.5rem;
+}
+
+.animate__animated.animate__flash {
+  --animate-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.productosParrafos ul li {
+  font-size: 1.3rem;
+  padding: 10px;
+  list-style-position: inside;
+}
+
+/* rigs */
+.productosRigs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rig1, .rig2 {
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px 1px black;
+          box-shadow: 0px 0px 10px 1px black;
+  background-color: #f0eef0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 450px;
+  margin: 0px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+.rig__palabras h3 {
+  text-decoration: underline;
+}
+
+.plazoDeEntrega, .formasDePago {
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px 1px black;
+          box-shadow: 0px 0px 10px 1px black;
+  background-color: #f0eef0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 600px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.plazoDeEntrega {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.formasDePago__svg img, .plazoDeEntrega__svg img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.formasDePago .mayor, .plazoDeEntrega .mayor {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.formasDePago p, .plazoDeEntrega p {
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=main.css.map */
