@@ -441,7 +441,6 @@
 }
 .grid1:hover {
     filter: none;
-    ;
 }
 .grid2 {
     background-image: url('../img/grid3.jpg');
@@ -452,7 +451,6 @@
 .grid2:hover {
     filter: none;
 }
-
 .grid3 {
     background-image: url('../img/grid4.jpg');
     background-repeat: no-repeat;
@@ -526,6 +524,10 @@
 }
 .productosParrafos h1 {
     font-size: 2.5rem;
+}
+.productosParrafos a {
+    text-decoration: none;
+    color: black;
 }
 .animate__animated.animate__flash {
     --animate-duration: 2s;
