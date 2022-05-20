@@ -1,0 +1,88 @@
+/* main */
+.mainIndex {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: 'Langar', cursive;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/negro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px 70px;
+    gap: 30px;
+}
+.mainIndex__titulo, .mainIndex__imagen {
+    margin-top: 50px;
+}
+.mainIndex__titulo h1 {
+    color: #ffc107;
+    font-size: 5rem;
+}
+.mainIndex__titulo h2 {
+    color: #ffc107;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.mainIndex__titulo h2 span {
+    color: #ffc107;
+    font-size: 3rem;
+}
+.mainIndex__titulo p {
+    color: #dfebed;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+}
+.ondas {
+    background-color: black;
+}
+/* secciones */
+.secciones {
+    font-family: 'Langar', cursive;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    padding-bottom: 130px;
+    background-color: #dfebed;
+}
+.Armamos, .Billetera, .Garantia, .Monitoreo, .Housing, .Componentes {
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #dfebed;
+    margin: 0px auto;
+}
+.Armamos__titulo a, .Housing__titulo a, .Componentes__titulo a {
+    text-decoration: none;
+    color: black;
+}
+.Armamos__imagen img, .Billetera__imagen img, .Garantia__imagen img, .Monitoreo__imagen img, .Housing__imagen img, .Componentes__imagen img {
+    max-height: 200px;
+    max-width: 200px;
+}
+.Armamos, .Garantia, .Housing {
+    flex-direction: row-reverse;
+}
+
+.Armamos__titulo h2, .Billetera__titulo h2, .Garantia__titulo h2, .Monitoreo__titulo h2, .Housing__titulo h2, .Componentes__titulo h2 {
+    font-size: 3rem;   
+}
+.Armamos__titulo h2:hover {
+    font-size: 3.1rem;   
+}
+.Housing__titulo h2:hover {
+    font-size: 3.1rem;   
+}
+.Componentes__titulo h2:hover {
+    font-size: 3.1rem;   
+}
+.Armamos__titulo p, .Billetera__titulo p, .Garantia__titulo p, .Monitoreo__titulo p, .Housing__titulo p, .Componentes__titulo p {
+    font-size: 1.3rem;
+}
+.Armamos__titulo, .Billetera__titulo, .Garantia__titulo, .Monitoreo__titulo, .Housing__titulo, .Componentes__titulo {
+    max-width: 800px;
+}

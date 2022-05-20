@@ -1,0 +1,23 @@
+/* HEADER */
+.navbar-collapse {
+    justify-content: end;
+}
+.container-fluid a img {
+    height: 70px;
+    border-radius: 0%;
+    border: 1px solid #ffc107;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #dfebed;
+    font-size: 1.4rem;
+    margin: 0px 10px;   
+    font-family: 'Langar', cursive;
+}
+.header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0;
+    z-index: 90;
+    box-shadow: 0px 0px 30px 1px #dfebed;
+}

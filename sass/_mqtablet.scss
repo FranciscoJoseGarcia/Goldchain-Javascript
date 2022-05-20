@@ -1,0 +1,74 @@
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    } 
+    html {
+        font-size: 85%;
+    }
+    /* FOOTER */
+    .pieDePagina {
+        gap: 15px;
+    }
+    /* index */
+    .mainIndex {
+        gap: 20px;
+    }
+    .mainIndex__imagen img {
+        height: 350px;  
+    }
+    .mainIndex__titulo h2 {
+        margin-bottom: 20px;
+    }
+    /* productos */
+    .mainProductos__grid {
+        gap: 10px;
+        max-width: 650px;
+    }
+    .productosParrafos {
+        max-width:700px; 
+    }
+    .rig1, .rig2 {
+        width: 365px;
+        padding: 10px;
+    }
+    /* housing */
+    .mainHousing {
+        padding: 0px 30px;
+    }
+    .mainHousing__encabezado {
+        max-width: 480px;
+    }
+    .mainHousing__imagen img {
+        height: 250px;
+    }
+    .housingServicios ul li {
+        padding: 15px 40px;
+    }
+    /* academia */
+    .gridAcademia {
+        gap: 10px;
+        max-width: 650px;
+    }
+    .criptomonedas, .blockchain, .defis, .minado, .roi, .hashrate {
+        max-width:700px;
+    }
+    /* contacto */
+    .mainContacto__1 {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 60px;
+        gap: 0px;
+    }
+    .mainContacto__1 img {
+        height: 250px;
+        padding-top: 70px;
+    }
+    .formulario {
+        max-width: 700px;
+    }
+    .mainContacto__3 img {
+        height: 250px;
+        align-self: center;
+    }
+}

@@ -6,6 +6,37 @@
           box-sizing: border-box;
 }
 
+/* FOOTER */
+.pieDePagina {
+  background-color: #dfebed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Langar', cursive;
+  font-size: 1.2rem;
+  color: black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-shadow: 0px 0px 30px 1px black;
+          box-shadow: 0px 0px 30px 1px black;
+}
+
+.redes a {
+  text-decoration: none;
+  color: black;
+}
+
+.redes p, .newsletter__titulo p {
+  font-weight: bold;
+}
+
+.suscribirme:hover {
+  background-color: #ffc107;
+}
+
 /* HEADER */
 .navbar-collapse {
   -webkit-box-pack: end;
@@ -38,40 +69,7 @@
           box-shadow: 0px 0px 30px 1px #dfebed;
 }
 
-/* FOOTER */
-.pieDePagina {
-  background-color: #dfebed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: 'Langar', cursive;
-  font-size: 1.2rem;
-  color: black;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 20px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-shadow: 0px 0px 30px 1px black;
-          box-shadow: 0px 0px 30px 1px black;
-}
-
-.redes a {
-  text-decoration: none;
-  color: black;
-}
-
-.redes p, .newsletter__titulo p {
-  font-weight: bold;
-}
-
-.suscribirme:hover {
-  background-color: #ffc107;
-}
-
-/* INDEX */
-/*INDEX main */
+/* main */
 .mainIndex {
   height: 100vh;
   width: 100%;
@@ -113,12 +111,6 @@
   font-size: 3rem;
 }
 
-.animate__animated.animate__pulse {
-  --animate-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
 .mainIndex__titulo p {
   color: #dfebed;
   letter-spacing: 2px;
@@ -129,7 +121,7 @@
   background-color: black;
 }
 
-/* INDEX secciones */
+/* secciones */
 .secciones {
   font-family: 'Langar', cursive;
   color: black;
@@ -232,6 +224,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+  gap: 50px;
 }
 
 .mainContacto__1 h1 {
@@ -265,6 +259,7 @@
   padding: 20px;
   -webkit-box-shadow: 0px 0px 10px 1px black;
           box-shadow: 0px 0px 10px 1px black;
+  border-radius: 20px;
 }
 
 .mainContacto__3 img {
@@ -294,6 +289,7 @@
 .borrar, .enviar {
   background-color: #f6d5f6;
   padding: 3px;
+  border-radius: 10px;
 }
 
 .enviar:hover {
@@ -376,7 +372,7 @@
 }
 
 /* ACADEMIA */
-/* main Academia */
+/* main */
 .mainAcademia {
   height: 100vh;
   width: 100%;
@@ -423,6 +419,8 @@
   width: 100%;
   max-width: 900px;
   height: 100vh;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
 }
 
 .gridAcademia__criptomonedas, .gridAcademia__blockchain, .gridAcademia__defis, .gridAcademia__minado, .gridAcademia__roi, .gridAcademia__hashrate {
@@ -443,7 +441,6 @@
   color: #dfebed;
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
-  letter-spacing: 2px;
 }
 
 .gridAcademia__criptomonedas {
@@ -523,7 +520,7 @@
   color: #dfebed;
 }
 
-/* definiciones Academia */
+/* definiciones */
 .definiciones {
   font-family: 'Langar', cursive;
   color: black;
@@ -561,6 +558,7 @@
   max-width: 1000px;
   -webkit-box-shadow: 0px 0px 10px 1px black;
           box-shadow: 0px 0px 10px 1px black;
+  border-radius: 20px;
 }
 
 .blockchain, .minado, .hashrate {
@@ -752,6 +750,7 @@
   margin: 0px auto;
   -webkit-box-shadow: 0px 0px 10px 1px black;
           box-shadow: 0px 0px 10px 1px black;
+  border-radius: 20px;
 }
 
 .productosParrafos h1 {
@@ -761,12 +760,6 @@
 .productosParrafos a {
   text-decoration: none;
   color: black;
-}
-
-.animate__animated.animate__flash {
-  --animate-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
 }
 
 .productosParrafos ul li {
@@ -803,6 +796,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .rig__palabras h3 {
@@ -825,6 +819,7 @@
   width: 600px;
   margin: 0px auto;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .plazoDeEntrega {
@@ -846,5 +841,256 @@
 
 .formasDePago p, .plazoDeEntrega p {
   font-size: 1.2rem;
+}
+
+/* pulse */
+.animate__animated.animate__pulse {
+  --animate-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/* flash */
+.animate__animated.animate__flash {
+  --animate-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 85%;
+  }
+  /* FOOTER */
+  .pieDePagina {
+    gap: 15px;
+  }
+  /* index */
+  .mainIndex {
+    gap: 20px;
+  }
+  .mainIndex__imagen img {
+    height: 350px;
+  }
+  .mainIndex__titulo h2 {
+    margin-bottom: 20px;
+  }
+  /* productos */
+  .mainProductos__grid {
+    gap: 10px;
+    max-width: 650px;
+  }
+  .productosParrafos {
+    max-width: 700px;
+  }
+  .rig1, .rig2 {
+    width: 365px;
+    padding: 10px;
+  }
+  /* housing */
+  .mainHousing {
+    padding: 0px 30px;
+  }
+  .mainHousing__encabezado {
+    max-width: 480px;
+  }
+  .mainHousing__imagen img {
+    height: 250px;
+  }
+  .housingServicios ul li {
+    padding: 15px 40px;
+  }
+  /* academia */
+  .gridAcademia {
+    gap: 10px;
+    max-width: 650px;
+  }
+  .criptomonedas, .blockchain, .defis, .minado, .roi, .hashrate {
+    max-width: 700px;
+  }
+  /* contacto */
+  .mainContacto__1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 60px;
+    gap: 0px;
+  }
+  .mainContacto__1 img {
+    height: 250px;
+    padding-top: 70px;
+  }
+  .formulario {
+    max-width: 700px;
+  }
+  .mainContacto__3 img {
+    height: 250px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+/* tablet y phablet */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 68%;
+  }
+  /* FOOTER */
+  .pieDePagina {
+    gap: 15px;
+  }
+  /* INDEX */
+  .mainIndex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    padding: 150px 0px 0px 0px;
+    text-align: center;
+    gap: 10px;
+  }
+  .mainIndex__titulo, .mainIndex__imagen {
+    margin-top: 0px;
+  }
+  .mainIndex__imagen img {
+    height: 200px;
+  }
+  .mainIndex__titulo h2 {
+    margin-bottom: 10px;
+  }
+  /* INDEX secciones */
+  .secciones {
+    gap: 90px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+  .Armamos, .Billetera, .Garantia, .Monitoreo, .Housing, .Componentes {
+    padding: 0px 20px;
+    gap: 10px;
+  }
+  .Armamos__imagen img, .Billetera__imagen img, .Garantia__imagen img, .Monitoreo__imagen img, .Housing__imagen img, .Componentes__imagen img {
+    max-height: 150px;
+    max-width: 150px;
+  }
+  /*PRODUCTOS  */
+  .mainProductos__grid {
+    gap: 8px;
+    max-width: 450px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid6 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .sectionProductos {
+    gap: 70px;
+    padding-bottom: 80px;
+  }
+  .productosParrafos {
+    max-width: 450px;
+  }
+  .productosRigs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 70px;
+  }
+  .rig1, .rig2, .plazoDeEntrega, .formasDePago {
+    width: 450px;
+  }
+  /* HOUSING */
+  .mainHousing {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 100px;
+  }
+  .mainHousing__encabezado {
+    text-align: center;
+    gap: 15px;
+    padding: 0px 20px;
+  }
+  .mainHousing__imagen img {
+    height: 150px;
+  }
+  .housingServicios {
+    padding-bottom: 80px;
+  }
+  /* ACADEMIA */
+  .mainAcademia {
+    padding-top: 60px;
+  }
+  .titularAcademia p {
+    text-align: center;
+  }
+  .gridAcademia {
+    max-width: 450px;
+    gap: 8px;
+  }
+  .definiciones {
+    padding-bottom: 80px;
+    gap: 80px;
+  }
+  .criptomonedas, .blockchain, .defis, .minado, .roi, .hashrate {
+    max-width: 450px;
+  }
+  /* CONTACTO */
+  .mainContacto__1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 20px;
+    gap: 15px;
+    padding-top: 100px;
+  }
+  .mainContacto__1 img {
+    height: 110px;
+    padding-top: 0px;
+  }
+  .formulario {
+    max-width: 450px;
+  }
+  .mainContacto__2, .mainContacto__3 {
+    padding-bottom: 80px;
+  }
+  .mainContacto__3 img {
+    height: 110px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .mainContacto__3 iframe {
+    height: 180px;
+    width: 180px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */

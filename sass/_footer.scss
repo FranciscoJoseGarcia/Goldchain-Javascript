@@ -1,0 +1,22 @@
+/* FOOTER */
+.pieDePagina {
+    background-color: #dfebed;
+    display: flex;
+    font-family: 'Langar', cursive;
+    font-size: 1.2rem;
+    color: black;
+    justify-content: space-around;
+    padding: 20px;
+    flex-shrink: 0;
+    box-shadow: 0px 0px 30px 1px black;
+ }
+ .redes a {
+     text-decoration: none;
+     color: black;
+ }
+ .redes p, .newsletter__titulo p {
+     font-weight: bold;
+ }
+ .suscribirme:hover {
+     background-color: #ffc107; 
+ } 

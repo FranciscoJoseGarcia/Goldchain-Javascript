@@ -1,0 +1,51 @@
+/* HOUSING */
+.mainHousing {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/negro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    font-family: 'Langar', cursive;
+    color: #dfebed;
+    align-items: center;
+    justify-content: space-around;
+}
+.mainHousing__encabezado {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mainHousing__encabezado h1{
+    font-size: 3.5rem;
+    max-width: 600px;
+}
+.mainHousing__imagen img {
+    height: 300px;
+}
+.mainHousing__encabezado h2 {
+    font-size: 2.5rem;
+}
+.mainHousing__encabezado h1 span, .mainHousing__encabezado h2 span {
+    color: #ffc107;
+}
+.housingServicios {
+    background-color: #dfebed;
+    padding-bottom: 130px;
+    font-family: 'Langar', cursive;
+}
+.housingServicios ul li {
+    font-size: 1.3rem;
+    padding: 15px;
+    text-align: center;
+    list-style-position: inside;
+}
+.housingServicios a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+.housingServicios a:hover {
+    color: #ffc107;
+}

@@ -1,0 +1,10 @@
+/* pulse */
+.animate__animated.animate__pulse {
+    --animate-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* flash */
+.animate__animated.animate__flash {
+    --animate-duration: 2s;
+    animation-iteration-count: infinite;
+}

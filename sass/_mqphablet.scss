@@ -1,0 +1,131 @@
+/* tablet y phablet */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+    html {
+        font-size: 68%;
+    }
+    /* FOOTER */
+    .pieDePagina {
+        gap: 15px;
+    }
+    /* INDEX */
+    .mainIndex {
+        flex-direction: column;
+        gap: 20px;
+        padding: 150px 0px 0px 0px;
+        text-align: center;
+        gap: 10px;
+    }
+    .mainIndex__titulo, .mainIndex__imagen {
+        margin-top: 0px;
+    }
+    .mainIndex__imagen img {
+        height: 200px;  
+    }
+    .mainIndex__titulo h2 {
+        margin-bottom: 10px;
+    }
+    /* INDEX secciones */
+    .secciones {
+        gap: 90px;
+        padding-bottom: 80px;   
+        padding-top: 80px;
+    }
+    .Armamos, .Billetera, .Garantia, .Monitoreo, .Housing, .Componentes {
+        padding: 0px 20px;
+        gap: 10px;    
+    }
+    .Armamos__imagen img, .Billetera__imagen img, .Garantia__imagen img, .Monitoreo__imagen img, .Housing__imagen img, .Componentes__imagen img {
+        max-height: 150px;
+        max-width: 150px;
+    }
+    /*PRODUCTOS  */
+    .mainProductos__grid {
+        gap: 8px;
+        max-width: 450px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid6 {
+        grid-row: 2/4;
+        grid-column: 3/4;
+    }
+    .sectionProductos {
+        gap: 70px;
+        padding-bottom: 80px;
+    }
+    .productosParrafos {
+       max-width: 450px;
+    }
+    .productosRigs {
+        flex-direction: column;
+        gap: 70px;
+    }
+    .rig1, .rig2, .plazoDeEntrega, .formasDePago {
+        width: 450px;
+    }
+    /* HOUSING */
+    .mainHousing {
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+    .mainHousing__encabezado {
+        text-align: center;
+        gap: 15px;
+        padding: 0px 20px;
+    }
+    .mainHousing__imagen img {
+        height: 150px;
+    }
+    .housingServicios {
+        padding-bottom: 80px;
+    }
+    /* ACADEMIA */
+    .mainAcademia {
+        padding-top: 60px;
+    } 
+    .titularAcademia p {
+        text-align: center;
+    }  
+    .gridAcademia {
+        max-width: 450px;
+        gap: 8px;
+    }
+    .definiciones {
+        padding-bottom: 80px;
+        gap: 80px;
+    }
+    .criptomonedas, .blockchain, .defis, .minado, .roi, .hashrate {
+        max-width: 450px;
+    }
+    /* CONTACTO */
+    .mainContacto__1 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 20px;
+        gap: 15px;
+        padding-top: 100px;
+    }
+    .mainContacto__1 img {
+        height: 110px;
+        padding-top: 0px;
+    }
+    .formulario {
+        max-width: 450px;
+    }
+    .mainContacto__2, .mainContacto__3 {
+        padding-bottom: 80px;
+    }
+   
+    .mainContacto__3 img {
+        height: 110px;
+        align-self: center;
+    }
+    .mainContacto__3 iframe {
+        height: 180px;
+        width: 180px;
+        align-self: center;
+    }
+}
