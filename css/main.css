@@ -120,6 +120,7 @@
 .ondas {
   background-color: black;
   z-index: 1;
+  border-bottom: #dfebed;
 }
 
 /* secciones */
