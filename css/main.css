@@ -421,6 +421,7 @@
   height: 100vh;
   font-size: 1.5rem;
   letter-spacing: 2px;
+  z-index: 2;
 }
 
 .gridAcademia__criptomonedas, .gridAcademia__blockchain, .gridAcademia__defis, .gridAcademia__minado, .gridAcademia__roi, .gridAcademia__hashrate {
@@ -1093,4 +1094,6 @@
         align-self: center;
   }
 }
+
+/* telefono */
 /*# sourceMappingURL=main.css.map */
