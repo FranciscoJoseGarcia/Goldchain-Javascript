@@ -119,8 +119,6 @@
 
 .ondas {
   background-color: black;
-  z-index: 1;
-  border-bottom: 0px #dfebed;
 }
 
 /* secciones */
@@ -423,7 +421,6 @@
   height: 100vh;
   font-size: 1.5rem;
   letter-spacing: 2px;
-  z-index: 2;
 }
 
 .gridAcademia__criptomonedas, .gridAcademia__blockchain, .gridAcademia__defis, .gridAcademia__minado, .gridAcademia__roi, .gridAcademia__hashrate {
@@ -537,7 +534,6 @@
   gap: 150px;
   padding-bottom: 130px;
   background-color: #dfebed;
-  border-top: 0px #dfebed;
 }
 
 .criptomonedas__imagen img, .blockchain__imagen img, .defis__imagen img, .minado__imagen img, .roi__imagen img, .hashrate__imagen img {
@@ -961,10 +957,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 20px;
     padding: 150px 0px 0px 0px;
     text-align: center;
-    gap: 10px;
+    gap: 20px;
   }
   .mainIndex__titulo, .mainIndex__imagen {
     margin-top: 0px;
@@ -1008,9 +1003,6 @@
     gap: 70px;
     padding-bottom: 80px;
   }
-  .productosParrafos {
-    max-width: 450px;
-  }
   .productosRigs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1018,7 +1010,7 @@
             flex-direction: column;
     gap: 70px;
   }
-  .rig1, .rig2, .plazoDeEntrega, .formasDePago {
+  .productosParrafos, .rig1, .rig2, .plazoDeEntrega, .formasDePago {
     width: 450px;
   }
   /* HOUSING */
@@ -1099,4 +1091,190 @@
 }
 
 /* telefono */
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 50%;
+  }
+  /* FOOTER */
+  .pieDePagina {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  /* INDEX*/
+  .mainIndex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+  }
+  .mainIndex__titulo h2 {
+    margin-bottom: 20px;
+  }
+  .mainIndex__titulo, .mainIndex__imagen {
+    margin-top: 0px;
+  }
+  .mainIndex__imagen img {
+    height: 200px;
+  }
+  /* INDEX secciones */
+  .secciones {
+    gap: 50px;
+    padding-bottom: 50px;
+  }
+  .Armamos, .Billetera, .Garantia, .Monitoreo, .Housing, .Componentes {
+    padding: 0px 15px;
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .Armamos__imagen img, .Billetera__imagen img, .Garantia__imagen img, .Monitoreo__imagen img, .Housing__imagen img, .Componentes__imagen img {
+    max-height: 100px;
+    max-width: 100px;
+  }
+  .Armamos__titulo h2, .Billetera__titulo h2, .Garantia__titulo h2, .Monitoreo__titulo h2, .Housing__titulo h2, .Componentes__titulo h2 {
+    margin-bottom: 20px;
+  }
+  /* PRODUCTOS */
+  .mainProductos {
+    padding-top: 50px;
+  }
+  .mainProductos__grid {
+    gap: 8px;
+    max-width: 290px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid6 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .sectionProductos {
+    gap: 50px;
+    padding-bottom: 50px;
+  }
+  .productosRigs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+  }
+  .productosParrafos, .rig1, .rig2, .plazoDeEntrega, .formasDePago {
+    width: 300px;
+  }
+  .formasDePago__svg img, .plazoDeEntrega__svg img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  /* HOUSING */
+  .mainHousing {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainHousing__encabezado {
+    text-align: center;
+    gap: 15px;
+    padding: 0px 20px;
+  }
+  .mainHousing__imagen img {
+    height: 120px;
+  }
+  .housingServicios {
+    padding: 0px 10px 50px 10px;
+  }
+  /* ACADEMIA */
+  .mainAcademia {
+    padding-top: 20px;
+  }
+  .titularAcademia p {
+    text-align: center;
+  }
+  .gridAcademia {
+    max-width: 290px;
+    gap: 8px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .definiciones {
+    padding-bottom: 50px;
+    gap: 50px;
+  }
+  .criptomonedas, .blockchain, .defis, .minado, .roi, .hashrate {
+    max-width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .criptomonedas__imagen img, .blockchain__imagen img, .defis__imagen img, .minado__imagen img, .roi__imagen img, .hashrate__imagen img {
+    max-height: 100px;
+    max-width: 100px;
+  }
+  /* CONTACTO */
+  .mainContacto__1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 20px;
+    gap: 30px;
+    padding-top: 0px;
+  }
+  .mainContacto__1 img {
+    height: 100px;
+    padding-top: 0px;
+  }
+  .formulario {
+    max-width: 300px;
+  }
+  .textarea {
+    max-width: 270px;
+  }
+  .mainContacto__2, .mainContacto__3 {
+    padding-bottom: 50px;
+  }
+  .mainContacto__3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .mainContacto__3 img {
+    height: 110px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .mainContacto__3 iframe {
+    height: 150px;
+    width: 150px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
