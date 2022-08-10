@@ -14,7 +14,7 @@ E-commerce realizado para el curso de Javascript de Coderhouse, consistente en 5
 - HTML
 - CSS
 - SASS
-- Javascript
+- JavaScript
 - Bootstrap 
 - Toastify
 - Sweet Alert
