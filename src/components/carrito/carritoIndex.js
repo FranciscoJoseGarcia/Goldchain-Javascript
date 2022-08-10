@@ -9,6 +9,7 @@ export const carritoIndex = (productoId) => {
     }
 
     let productoRepetido = carritoDeCompras.find( producto => producto.id === productoId);
+      
     contarProductosRepetidos(productoRepetido, productoId, carritoDeCompras);
 }
 
